@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"^html2canvas$\")",
+      "Bash(pnpm add *)",
+      "Bash(npx tsc *)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx --yes playwright install chromium)",
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-mahadev-Desktop-zawjayan-react/5e56c163-40f4-47ff-b622-5ccce4b7ff9e/scratchpad/pw)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(cp /tmp/screenshot.mjs /private/tmp/claude-501/-Users-mahadev-Desktop-zawjayan-react/5e56c163-40f4-47ff-b622-5ccce4b7ff9e/scratchpad/pw/screenshot.mjs)",
+      "Bash(node screenshot.mjs)",
+      "Read(//tmp/**)",
+      "Read(//private/tmp/**)",
+      "Bash(python3 -)",
+      "Bash(pnpm remove *)",
+      "Bash(node pipeline.mjs)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(lsof -ti:5174)",
+      "Bash(xargs -r kill)",
+      "Bash(lsof -i:5173)",
+      "Bash(lsof -i:5174)",
+      "Bash(python3 -c \"import fitz\")",
+      "Bash(pdfinfo output.pdf)",
+      "Bash(/opt/homebrew/bin/pdftoppm -r 100 -png output.pdf page)",
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")"
+    ]
+  }
+}
